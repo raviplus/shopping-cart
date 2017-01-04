@@ -1,11 +1,7 @@
-package org.hmrc.exercise.shopping.cart.model
+package org.hmrc.exercise.shopping.cart
 
+import org.hmrc.exercise.shopping.cart.model.{Apple, Orange, ShoppingCart}
 import org.specs2.mutable.Specification
-
-import org.hmrc.exercise.shopping.cart.model.ShoppingCart
-import org.hmrc.exercise.shopping.cart.model.Product
-import org.hmrc.exercise.shopping.cart.model.Apple
-import org.hmrc.exercise.shopping.cart.model.Orange
 
 /**
   * Created by r.radkris on 04/01/2017

@@ -1,12 +1,8 @@
-package org.hmrc.exercise.shopping.cart.model
+package org.hmrc.exercise.shopping.cart
 
-import org.specs2.mutable.Specification
-
-import org.hmrc.exercise.shopping.cart.model.ShoppingCart
-import org.hmrc.exercise.shopping.cart.model.Product
-import org.hmrc.exercise.shopping.cart.model.Apple
-import org.hmrc.exercise.shopping.cart.model.Orange
+import org.hmrc.exercise.shopping.cart.model.{Apple, Orange, ShoppingCart}
 import org.hmrc.exercise.shopping.cart.service.Checkout
+import org.specs2.mutable.Specification
 
 /**
   * Created by r.radkris on 04/01/2017
@@ -28,7 +24,7 @@ class CheckoutSpec extends Specification {
     }
   }
 
-    "total cost must be 0.60 when two apples in the cart" in {
+  "total cost must be 0.60 when two apples in the cart" in {
     val shoppingCart = ShoppingCart()
       .addToCart(Apple)
       .addToCart(Apple)

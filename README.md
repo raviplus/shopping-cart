@@ -2,8 +2,10 @@ Shopping Cart
 =============
 
 Problem Statement
+=================
 
-Step 1: Shopping cart
+Step 1: Basic Shopping cart
+---------------------------
 
 You are building a checkout system for a shop which only sells apples and oranges.
 Apples cost 60p and oranges cost 25p. 
@@ -12,7 +14,8 @@ For example: [ Apple, Apple, Orange, Apple ] => £2.05
 Make reasonable assumptions about the inputs to your solution; for example, many candidates take a list of strings as input 
  
  
-Step 2: Simple offers 
+Step 2: Shopping cart with offers 
+---------------------------------
 
 The shop decides to introduce two new offers 
 	○	buy one, get one free on Apples 
@@ -21,7 +24,8 @@ Update your checkout functions accordingly
  
 
  
-Runi Tests:
+Run Tests:
+==========
 
 The following command will build and run the unit tests,
  
